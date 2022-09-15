@@ -161,9 +161,9 @@ export default function ContactPage() {
                 placeholder="(123)456-7890"
                 className="bg-gray-200 h-12 px-4 w-full"
               />
-              {errors?.email && (
+              {errors?.phoneNumber && (
                 <div className="mt-2 bg-red-100 p-1 text-red-500">
-                  {errors.email}
+                  {errors.phoneNumber}
                 </div>
               )}
             </div>
